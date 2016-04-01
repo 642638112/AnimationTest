@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:layout_width="100dp"
+        android:onClick="menu"
+        android:text="灵动菜单"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="100dp"
+        android:onClick="timerAnim"
+        android:text="计时器动画"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="100dp"
+        android:text="下拉菜单"
+        android:onClick="pushDownMenu"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
